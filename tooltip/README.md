@@ -2,7 +2,7 @@ Tooltip组件使用方法
 
 （1）在页面中引入"tooltip.css","jquery-1.12.2.js","tooltip.js"三个文件
 
-（2）用jquery获得想要添加tooltip的jquery对象，例如：$(".center").tooltip({placement:"left",title:"<h1>you hover me</h1>",html:true});
+（2）用jquery获得想要添加tooltip的jquery对象，例如：$(".center").tooltip({placement:"left",title:"you hover me",html:true});
 
 （3）tooltip函数使用，tooltip(options),参数options是一个对象，可选的，包含的属性有
              html:false,         //如果在title中有html元素，是否以该html的格式显示提示信息
