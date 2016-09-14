@@ -21,8 +21,11 @@
 <body>
  <div class="center">
  </div>
+ <div class="sd" style="width:100px;height:100px;display:none">
+ </div>
  <script type="text/javascript">
-  $(".center").tooltip({placement:"left",title:"<h1>you hover me</h1>",html:true});
+  $(".center").tooltip({placement:"left",title:"<h1>you hover me</h1>",html:true});  
+  alert($(".sd").innerHeight()+" "+$(".sd").innerWidth());
  </script>
 </body>
 </html>
